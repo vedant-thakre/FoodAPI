@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Item APIs</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 20px;
+      background-color: #f8f8f8;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    h2 {
+      color: #555;
+    }
+
+    p {
+      color: #777;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Food Item APIs</h1>
+
+  <h2>Endpoints:</h2>
+  <ul>
+    <li>
+      <a href="/api/fooditem/new" target="_blank">
+        POST /api/fooditem/new - Add a new food item
+      </a>
+      <p>Create a new food item with details such as name, description, price, etc.</p>
+    </li>
+
+    <li>
+      <a href="/api/fooditem/addmany" target="_blank">
+        POST /api/fooditem/addmany - Add multiple food items
+      </a>
+      <p>Add multiple food items in a single request using an array of item details.</p>
+    </li>
+
+    <li>
+      <a href="/api/fooditem/all" target="_blank">
+        GET /api/fooditem/all - Get all food items
+      </a>
+      <p>Retrieve a list of all available food items.</p>
+    </li>
+
+    <li>
+      <a href="/api/fooditem/:id" target="_blank">
+        GET /api/fooditem/:id - Get a food item by ID
+      </a>
+      <p>Retrieve detailed information about a specific food item using its unique identifier.</p>
+    </li>
+
+    <li>
+      <a href="/api/fooditem/:id" target="_blank">
+        PUT /api/fooditem/:id - Update a food item by ID
+      </a>
+      <p>Update the details of a specific food item identified by its unique identifier.</p>
+    </li>
+
+    <li>
+      <a href="/api/fooditem/:id" target="_blank">
+        DELETE /api/fooditem/:id - Delete a food item by ID
+      </a>
+      <p>Delete a specific food item using its unique identifier.</p>
+    </li>
+  </ul>
+</body>
+
+</html>
